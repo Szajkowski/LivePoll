@@ -1,0 +1,17 @@
+body {
+    background: #f7f7f7;
+}
+.question-card {
+    border-radius: 12px;
+}
+.answer-line input {
+    max-width: 500px;
+}
+.remove-btn {
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.remove-btn:hover {
+    color: red;
+}

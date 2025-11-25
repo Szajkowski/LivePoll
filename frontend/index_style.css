@@ -1,0 +1,8 @@
+#poll-list a {
+    padding: 15px 20px;
+    font-size: 1.05rem;
+}
+
+#poll-list a:hover {
+    background-color: #f7f7f7;
+}
