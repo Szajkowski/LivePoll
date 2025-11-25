@@ -15,9 +15,10 @@ Każda z opracowanych funkcji posiada type annotation oraz dokumentację w posta
 Do projektu zostały dodane testy jednostkowe wykorzystujące moduł pytest. Można je wykonać wpisując polecenie ".\venv\Scripts\python.exe -m pytest" w katalogu głównym projektu. Dlaczego odwoływać się do zagnieżdżonego python.exe zamiast aktywować venv? Dlatego, że windows 10 może mieć problem z wykonywaniem skryptów i trzeba się bawić w nadawanie uprawnień. Zrobienie tego w ten sposób pomija ten problem. WAŻNE: testy wykonują się na żywo na bazie danych.
 
 ### Jak uruchomić projekt?
-1. Należy zainstalować po czym otworzyć XAMPP control panel i uruchomić moduł MySQL oraz Apache
+1. Należy zainstalować, a następnie otworzyć XAMPP control panel i uruchomić moduł MySQL oraz Apache
 2. Wejść na localhost/phpmyadmin i zaimportować podany w katalogu głównym plik livepoll.sql. Baza wraz z 20 przykładami ankiet utworzy się sama. Po tym można opcjonalnie zastopować moduł Apache, nie będzie już potrzebny.
 3. Kliknąć dwukrotnie plik run.cmd lub otworzyć go wpisując ".\run" w katalogu głównym projektu.
+4. Konsola po uruchomieniu pokazuje adres, na którym działa strona.
 
 ### Pozostałe funkcje
 Strona posiada też walidacje danych przy tworzeniu ankiety oraz własny errorpage. Front jest stworzony w javascript. 
